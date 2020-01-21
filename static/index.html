@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>공릉동 주민 톡방</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/js/index.js"></script>
+	
+  </head>
+  <body>
+	<h1 id="title">공릉동 주민 톡방</h1>
+    <div id="main">
+      <div id="chat">
+      </div>
+      <div>
+        <input type="text" class="form-control" id="input_text" placeholder="메시지를 입력해주세요..">
+        <button onclick="send()" class="btn btn-primary" id="send">전송</button>
+      </div>
+    </div>
+  </body>
+</html>
